@@ -1,6 +1,6 @@
 public class DecimalToBinary {
     public static void main(String[] args){
-        Integer number;
+        Integer number = 25;
         Integer org = number;
         String binary = "";
         Integer remainder;
@@ -10,7 +10,7 @@ public class DecimalToBinary {
             binary = remainder + binary;
             number = number / 2;
         }
-        IO.println();
-
+        IO.println("Decimal Number:"+org);
+        IO.println("Binary Number:"+binary);
     }
 }
