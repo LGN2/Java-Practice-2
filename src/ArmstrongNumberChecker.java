@@ -6,18 +6,23 @@ public class ArmstrongNumberChecker {
         Integer sum = 0;
         Integer count = 0;
 
-        while (number != 0){
+        Integer temp = number;
+
+        while (temp != 0){
             count++;
-            number = number / 10;
+            temp = temp / 10;
         }
-        while (number != 0){
-            digit = number % 10;
+
+        temp = number;
+
+        while (temp != 0){
+            digit = temp % 10;
             int power = 1;
             for (int i = 1; i <= count; i++){
                 power *= digit;
             }
             sum += power;
-            number = number / 10;
+            temp = temp / 10;
         }
         IO.println("Number:"+org);
 
