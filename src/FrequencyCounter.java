@@ -5,7 +5,7 @@ public class FrequencyCounter {
         Integer count;
         Integer digit;
 
-        for (int i = start; i <= end; i++) {
+        for (int i = number; i <= number; i++) {
             if (i % 2 == 0) {
                 evenCount++;
             } else {
