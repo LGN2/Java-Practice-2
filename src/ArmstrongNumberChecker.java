@@ -1,5 +1,5 @@
 public class ArmstrongNumberChecker {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Integer number = 153;
         Integer org = number;
         Integer digit;
@@ -8,27 +8,27 @@ public class ArmstrongNumberChecker {
 
         Integer temp = number;
 
-        while (temp != 0){
+        while (temp != 0) {
             count++;
             temp = temp / 10;
         }
 
         temp = number;
 
-        while (temp != 0){
+        while (temp != 0) {
             digit = temp % 10;
             int power = 1;
-            for (int i = 1; i <= count; i++){
+            for (int i = 1; i <= count; i++) {
                 power *= digit;
             }
             sum += power;
             temp = temp / 10;
         }
-        IO.println("Number:"+org);
+        IO.println("Number:" + org);
 
-        if (sum.equals(org)){
+        if (sum.equals(org)) {
             IO.println("The Number is an Armstrong Number.");
-        }else {
+        } else {
             IO.println("The Number is Not an Armstrong Number.");
         }
     }
