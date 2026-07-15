@@ -1,8 +1,8 @@
 public class StudentGradeCalculator {
     public static void main(String[] args){
-        Double grade1 = 96.9;
-        Double grade2 = 80.9;
-        Double grade3 = 90.7;
+        Double grade1 = 85.7;
+        Double grade2 = 90.6;
+        Double grade3 = 80.9;
         Double average;
         String status;
 
