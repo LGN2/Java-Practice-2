@@ -50,5 +50,6 @@ public class StringsDemo {
         String file = "OOPTASK33.HTML";
         Integer dot =  file.lastIndexOf(".");
         IO.println("File name is: "+file.substring(0,dot));
+        IO.println("File Format is: "+file.substring(dot + 1));
     }
 }
