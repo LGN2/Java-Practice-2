@@ -1,6 +1,6 @@
 public class StringsDemo {
     public static void main(String[] args) {
-        String greeting = "Salam Aliekum";
+  /*      String greeting = "Salam Aliekum";
         greeting.toUpperCase();
         IO.println(greeting);
         String upperCaseGreeting = greeting.toUpperCase();
@@ -30,7 +30,7 @@ public class StringsDemo {
         IO.println(email.indexOf("@")+1);
         IO.println(email.indexOf("$"));
         IO.println(email.length());
-
+*/
         String t = "Hello Codeline World";
 // 0123456789...
         IO.println(t.indexOf("Codeline"));
