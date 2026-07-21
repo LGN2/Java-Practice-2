@@ -47,7 +47,7 @@ public class StringsDemo {
         IO.print(n.substring(6));
         IO.print(n.substring(6,14));*/
 
-        String file = "report.pdf";
+        String file = "OOPTASK33.HTML";
         Integer dot =  file.lastIndexOf(".");
         IO.println("File name is: "+file.substring(0,dot));
     }
