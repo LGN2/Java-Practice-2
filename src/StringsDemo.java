@@ -63,11 +63,13 @@ public class StringsDemo {
 
         String csvRow = "Ahmed,25,99998888";
         String[] details = csvRow.split(",");
-        for (String x : details){
+       /* for (String x : details){
             IO.println("Name:"+details[0]);
             IO.println("Age:"+details[1]);
             IO.println("Number:"+details[2]);
-        }
-
+        }*/
+        IO.println("Name:"+details[0]);
+        IO.println("Age:"+details[1]);
+        IO.println("Number:"+details[2]);
     }
 }
