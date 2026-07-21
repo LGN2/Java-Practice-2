@@ -40,11 +40,14 @@ public class StringsDemo {
         IO.println(t.startsWith("Hello"));
         IO.println(t.endsWith("World"));
         */
-        String n = "Hello Codeline World";
+     /*   String n = "Hello Codeline World";
         IO.println(n.charAt(16));
         IO.println(n.charAt(0));
         IO.println(n.charAt(19));
         IO.print(n.substring(6));
-        IO.print(n.substring(6,14));
+        IO.print(n.substring(6,14));*/
+
+        String file = "report.pdf";
+        Integer dot =  file.lastIndexOf(".");
     }
 }
