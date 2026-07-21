@@ -31,7 +31,7 @@ public class StringsDemo {
         IO.println(email.indexOf("$"));
         IO.println(email.length());
 */
-        String t = "Hello Codeline World";
+    /*    String t = "Hello Codeline World";
 // 0123456789...
         IO.println(t.indexOf("Codeline"));
         IO.println(t.indexOf("Java"));
@@ -39,5 +39,12 @@ public class StringsDemo {
         IO.println(t.contains("World"));
         IO.println(t.startsWith("Hello"));
         IO.println(t.endsWith("World"));
+        */
+        String n = "Hello Codeline World";
+        IO.println(n.charAt(16));
+        IO.println(n.charAt(0));
+        IO.println(n.charAt(19));
+        IO.print(n.substring(6));
+        IO.print(n.substring(6,14));
     }
 }
