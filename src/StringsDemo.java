@@ -49,5 +49,6 @@ public class StringsDemo {
 
         String file = "report.pdf";
         Integer dot =  file.lastIndexOf(".");
+        IO.println("File name is: "+file.substring(0,dot));
     }
 }
