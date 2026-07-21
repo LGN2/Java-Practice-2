@@ -47,7 +47,7 @@ public class StringsDemo {
         IO.print(n.substring(6));
         IO.print(n.substring(6,14));*/
 
-        String file = "OOPTASK33.HTML";
+        /*String file = "OOPTASK33.HTML";
         Integer dot =  file.lastIndexOf(".");
         IO.println("File name is: "+file.substring(0,dot));
         IO.println("File Format is: "+file.substring(dot + 1));
@@ -57,5 +57,17 @@ public class StringsDemo {
         IO.println(t.replace('o','O'));
         IO.println(t.replace("Hello","Hi"));
         String[] parts = t.split(" ");
+        for (String x : parts){
+            IO.println(x);
+        }*/
+
+        String csvRow = "Ahmed,25,99998888";
+        String[] details = csvRow.split(",");
+        for (String x : details){
+            IO.println("Name:"+details[0]);
+            IO.println("Age:"+details[1]);
+            IO.println("Number:"+details[2]);
+        }
+
     }
 }
