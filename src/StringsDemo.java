@@ -51,5 +51,11 @@ public class StringsDemo {
         Integer dot =  file.lastIndexOf(".");
         IO.println("File name is: "+file.substring(0,dot));
         IO.println("File Format is: "+file.substring(dot + 1));
+
+
+        String t = "Hello Codeline World";
+        IO.println(t.replace('o','O'));
+        IO.println(t.replace("Hello","Hi"));
+        String[] parts = t.split(" ");
     }
 }
